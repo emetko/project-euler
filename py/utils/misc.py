@@ -38,7 +38,7 @@ def mul(l):
 def is_pandigital(s):
     """ every digit must be present once....
       if any digit is present more that one it means that another is missing """
-    return any(str(x) not in s for x in range(1, 10))
+    return all(str(x) in s for x in range(1, 10))
 
 
 def get_identities(n):

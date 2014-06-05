@@ -1,0 +1,4 @@
+py/_test*
+.check
+*.pyc
+*sublime*
